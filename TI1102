@@ -1,0 +1,18 @@
+
+class Car{
+    public void test(){
+        System.out.println("Testing a car");
+    }
+}
+class Bike{
+    public void test(){
+        System.out.println("Testing a bike");
+    }
+}
+
+class PrepBytes extends Car,Bike{
+    public static void main(String[] args) {
+        PrepBytes pb= new PrepBytes();
+        pb.test();
+    }
+}
